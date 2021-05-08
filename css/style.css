@@ -20,7 +20,7 @@
        
     }
     .the-div-img{
-        width: 55%;
+        width: 70%;
         height: 55%;
        animation-name:moveimg ;
        animation-duration: 3s;
@@ -74,7 +74,7 @@
     }
     .the-div-btton{
         position: absolute;
-        bottom: 10%;
+        bottom: 20%;
         left: 40%;
 
     }
@@ -89,7 +89,55 @@
     }
 
     .section-1{
-    
+    position: relative;
        
         overflow: hidden;
     }
+
+    .the-div-col{
+        padding: 0;
+    }
+   .iteams-2{
+       width: 100%;
+       height: 100vh;
+       background-color: #f4f4f4;
+       position: relative;
+   }
+   .iteams-2-img{
+       width: 70%;
+       height: 50%;
+       animation-name:moveimg ;
+       animation-duration: 3s;
+       animation-iteration-count: infinite;
+     
+       
+       
+   }
+   
+   .iteams-2-img img {
+       width: 100%;
+   }
+   .the-text-2{
+       position: absolute;
+     top: 5%;
+     left: 2%;
+   }
+   .the-text-3{
+       position: absolute;
+       top: 5%;
+       right: 15%;
+   }
+.the-div-btton-2{
+    position: absolute;
+    bottom: 20%;
+    left: 40%;
+}
+.the-div-btton-2 a{
+    border: 1px solid #c78f57;
+    color: black;
+    padding:5px 10px;
+}
+.the-div-btton-2:hover .the-link-section-1{
+    background-color: #c78f57;
+    color: white;
+}

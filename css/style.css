@@ -30,7 +30,6 @@
     }
     .the-div-img img{
         width: 100%;
-    
     }
     
 
@@ -86,7 +85,11 @@
         color: white;
         padding:5px 10px;
     }
-    .the-div-btton:hover .the-link-section-1{
+    .the-div-btton1:hover .the-link-section-1{
+        background-color: #c78f57;
+        color: white;
+    }
+    .the-div-btton2:hover .the-link-section-1{
         background-color: #c78f57;
         color: white;
     }
@@ -140,3 +143,29 @@
     }
     
 }
+
+/*start session2 */
+.iteam-2{
+    background-color: #f4f4f4;
+    width: 100%;
+     height: 100vh;
+
+}
+
+.thetextsection2{
+    color: #000;
+    
+}
+.iteam-21 {
+    background-color: #000;
+    width: 100%;
+     height: 100vh;
+}
+
+.thetextsection21{
+    color: #fff;
+    
+}
+
+
+/*end session2 */

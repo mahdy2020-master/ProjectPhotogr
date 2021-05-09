@@ -167,5 +167,10 @@
     
 }
 
+.section-2{
+    position: relative;
+       
+     overflow: hidden;
+    }
 
 /*end session2 */

@@ -69,16 +69,19 @@
     .thetextsection1{
         color:white;
     }
-    .section-1:hover .the-text{
+    .the-div-col:hover .the-text{
         color:#c78f57;
     }
-    .the-div-btton{
+    .the-div-col:hover .hp{
+        color:#c78f57;
+    }
+    .the-div-btton1{
         position: absolute;
         bottom: 9%;
         left: 40%;
 
     }
-    .the-div-btton a{
+    .the-div-btton1 a{
         border: 1px solid #c78f57;
         color: white;
         padding:5px 10px;
@@ -91,53 +94,49 @@
     .section-1{
     position: relative;
        
-        overflow: hidden;
+     overflow: hidden;
     }
 
-    .the-div-col{
-        padding: 0;
-    }
-   .iteams-2{
-       width: 100%;
-       height: 100vh;
-       background-color: #f4f4f4;
-       position: relative;
-   }
-   .iteams-2-img{
-       width: 70%;
-       height: 50%;
-       animation-name:moveimg ;
-       animation-duration: 3s;
-       animation-iteration-count: infinite;
-     
-       
-       
-   }
-   
-   .iteams-2-img img {
-       width: 100%;
-   }
-   .the-text-2{
-       position: absolute;
-     top: 5%;
-     left: 2%;
-   }
-   .the-text-3{
-       position: absolute;
-       top: 5%;
-       right: 15%;
-   }
-.the-div-btton-2{
+.iteams2{
+    background-color: #f4f4f4;
+    width: 100%;
+     height: 100vh;
+}
+
+
+.thetextsection2{
+    color: black;
+}
+
+.the-text {
+    color: dimgray;
+}
+
+.the-div-col2:hover .the-text{
+    color:#c78f57;
+}
+.the-div-col2:hover .hp{
+    color:#c78f57;
+}
+.the-div-btton2 a{
+    border: 1px solid #c78f57;
+    
+    padding:5px 10px;
+}
+.the-div-btton2{
     position: absolute;
     bottom: 9%;
     left: 40%;
+
 }
-.the-div-btton-2 a{
-    border: 1px solid #c78f57;
-    color: black;
-    padding:5px 10px;
-}
-.the-div-btton-2:hover .the-link-section-1{
-    background-color: #c78f57;
-    color: white;
+
+@media screen and (max-width:850px){
+
+    .mediaOne{
+        width: 25%;
+    }
+    .mediaTwo{
+        width: 75%;
+    }
+    
 }

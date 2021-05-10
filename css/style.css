@@ -174,3 +174,8 @@
     }
 
 /*end session2 */
+/* the hide scroul */
+::-webkit-scrollbar {
+    display: none;
+}
+/* the end class hide scroul */
